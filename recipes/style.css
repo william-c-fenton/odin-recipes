@@ -3,13 +3,16 @@
     position: relative;
     max-width: 40%;
     margin-left: 20px;
-    font-family: 'Roboto', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    line-height: 2;
+    letter-spacing: 2px;
 }
 
 img {
-    position: absolute;
     z-index: -1;
     top: 0;
+    width: auto;
+    height: page;
+    position: sticky;
 }
 
 h1 {
@@ -17,4 +20,8 @@ h1 {
     position: relative;
     background-color: white;
     max-width: 40%;
+}
+
+body {
+    font-family: 'Roboto', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
